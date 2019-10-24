@@ -10,6 +10,7 @@ from base.base import Base
 class PageLogin(Base):
     # 关闭 弹窗
     def page_close_alert(self):
+
         self.base_click(page.login_close_alert)
 
     # 点击 我
